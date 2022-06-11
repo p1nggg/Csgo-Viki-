@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    background-image: url(images/back\ csgo\ 1.png);
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header{
+    height: 84px;
+    background-color: #262626;
+    width: 100vw;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 36px;
+
+}
+.logocs{
+    margin-left: 67px;
+    position: relative;
+    top: 16px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Inter';
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 24px;
+}
+.menu{
+    position: relative;
+    left: 15px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+.firstgraph{
+    height: 833px;
+    width: 472px;
+    background-color: #000000;
+    margin-left: 71px;
+    margin-top: 15px;
+    display:inline-flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+.firstgraph article{
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.secondgraph{
+    height: 790px;
+    width: 813px;
+    background-color: #FFFFFF;
+    position: relative;
+    right: 5px;
+    left: -5px;
+    top: -27px;
+    bottom: 27px;
+    display: inline-flex; 
+    flex-wrap: wrap;
+
+    
+       
+}
+.news-one{
+    display: flex;
+    flex-direction: column;
+    height:137px;
+    width: 265px;
+    padding-left: 38px;
+    padding-right: 206px;
+
+}
+.news-two{
+    display: flex;
+    flex-direction: column;
+    height:137px;
+    width: 265px;
+}
+.secondgraph article{
+    margin-top: 113px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.thirdgraph article{
+    margin-left: 177px;
+    margin-bottom: 50px;
+
+}
+
+.thirdgraph{
+    width: 472px;
+    height: 833px;
+    background-color: #E3E3E3;
+    display: inline-flex;
+    position: relative;
+    bottom: 153px;
+    right: 10px;
+    top: -40px;
+    left: -10px;
+    flex-direction: column; 
+    justify-content: center;
+
+}
+.news-black{
+    color: #FFFFFF;
+    font-size: 24px;
+    width: 265px;
+    height: 65px;
+    font-family: 'Inter';
+
+}
+footer{
+    width: 100%;
+    height: 181px;
+    background-color: #262626;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.support{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.support>li{
+    padding-right: 35px;
+}
+.logo>img{
+    padding-top: 39px;
+    padding-left: 51px;
+
+}
+.copyright, .copyright-dark{
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.copyright-dark{
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #7D7D7D;
+    margin-top: 10px;
+}
+.copyright{
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #FFFFFF;
+}
+ul,ol,li{
+    list-style:none;    
+}
+.news,.news-one,.news-two{
+    font-family: 'Inter';
+    color: #000000;
+    font-size: 24px;
+}
+.Big_image{
+    margin-top: 60px;
+    margin-bottom: -186px;
+}
+.Big{
+    margin-left: 38px;
+}
+.Big_news{
+    font-family: 'Inter';
+    color: #000000;
+    font-size: 24px;
+}
+.news-two{
+    margin-bottom: 15px;
+}
